@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testing;
+package jUnitTests;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -66,9 +66,9 @@ public class UserTestingUnit {
     @Test
     public void getUsername(){
         Appuser appuser = new Appuser();
-        appuser.setUsername("user1");
+        appuser.setUsername("ahmed");
         String getTest = appuser.getUsername();
-        assertEquals("user1", getTest);
+        assertEquals("ahmed", getTest);
     }
     @Test
     public void setUsername(){
@@ -89,5 +89,17 @@ public class UserTestingUnit {
         Appuser appuser = new Appuser();
         appuser.setGroupname("group1");
         assertEquals("group1", appuser.getGroupname());
+    }
+    @Test 
+    public void getPassword(){
+        Appuser appuser = new Appuser();
+        String getTest = appuser.getPassword();
+        assertEquals(null, getTest);
+    }
+    @Test
+    public void setPassword(){
+        Appuser appuser = new Appuser();
+        //appuser.setPassword(null);
+        assertEquals(null,appuser.getPassword());
     }
 }

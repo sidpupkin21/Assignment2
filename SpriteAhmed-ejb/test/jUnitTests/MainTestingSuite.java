@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testing;
+package jUnitTests;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -17,7 +17,7 @@ import org.junit.runners.Suite;
  * @author sid
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({testing.ColorTestingUnit.class, testing.SpriteTestingUnit.class, testing.UserTestingUnit.class})
+@Suite.SuiteClasses({jUnitTests.ColorTestingUnit.class, jUnitTests.SpriteTestingUnit.class, jUnitTests.UserTestingUnit.class})
 public class MainTestingSuite {
 
     @BeforeClass

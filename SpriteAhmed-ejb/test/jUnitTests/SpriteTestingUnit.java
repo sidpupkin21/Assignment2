@@ -1,9 +1,9 @@
-/*
+ /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testing;
+package jUnitTests;
 
 import cst8218.moha0901.entity.Sprite;
 import org.junit.After;
@@ -70,8 +70,8 @@ public class SpriteTestingUnit {
     @Test 
     public void setPanelWidth(){
         Sprite sprite = new Sprite();
-        sprite.setPanelWidth(1);
-        assertEquals(1,sprite.getPanelWidth());
+        sprite.setPanelWidth(500);
+        assertEquals(500,sprite.getPanelWidth());
     }
     @Test
     public void getPanelHeight(){
@@ -82,8 +82,8 @@ public class SpriteTestingUnit {
     @Test
     public void setPanelHeight(){
         Sprite sprite = new Sprite();
-        sprite.setPanelHeight(1);
-        assertEquals(1, sprite.getPanelHeight());
+        sprite.setPanelHeight(500);
+        assertEquals(500, sprite.getPanelHeight());
     }
     
     /*GetX,SetX, GetY,SetY*/
@@ -96,8 +96,8 @@ public class SpriteTestingUnit {
     @Test 
     public void setX(){
         Sprite sprite = new Sprite();
-        sprite.setX(1);
-        assertEquals(1, sprite.getX());
+        sprite.setX(10);
+        assertEquals(10, sprite.getX());
     }
     @Test
     public void getY(){
@@ -108,8 +108,8 @@ public class SpriteTestingUnit {
     @Test 
     public void setY(){
         Sprite sprite = new Sprite();
-        sprite.setY(1);
-        assertEquals(1, sprite.getY());
+        sprite.setY(25);
+        assertEquals(25, sprite.getY());
     }
     /*getDx setDx getDy setDy*/
     @Test
@@ -120,8 +120,8 @@ public class SpriteTestingUnit {
     @Test
     public void setDx(){
         Sprite sprite = new Sprite();
-        sprite.setDx(1);
-        assertEquals(1, sprite.getDx());
+        sprite.setDx(99);
+        assertEquals(99, sprite.getDx());
     }
     @Test
     public void getDy(){
@@ -131,8 +131,8 @@ public class SpriteTestingUnit {
     @Test
     public void setDy(){
         Sprite sprite = new Sprite();
-        sprite.setDy(1);
-        assertEquals(1, sprite.getDy());
+        sprite.setDy(51);
+        assertEquals(51, sprite.getDy());
     }
    
 }

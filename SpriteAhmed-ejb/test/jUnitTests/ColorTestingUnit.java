@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testing;
+package jUnitTests;
 
 import cst8218.moha0901.service.SpriteColorConverter;
 import java.awt.Color;
